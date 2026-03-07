@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "title": "Pro Kasb Hunar Markazi",
+    "description": "Zamonaviy kasb va moliyaviy ta'lim platformasi"
+  },
+  "languageSwitcher": {
+    "uz": "O'zbek (Lotin)",
+    "uzCyrl": "Uzbek (Kirill)",
+    "ru": "Русский"
+  },
+  "theme": {
+    "dark": "Qorong'i",
+    "light": "Yorug'"
+  },
+  "navigation": {
+    "about": "Biz haqimizda",
+    "courses": "Kurslar",
+    "teachers": "Ustozlar",
+    "books": "Kitoblar",
+    "contact": "Aloqa",
+    "admin": "Admin"
+  },
+  "landing": {
+    "hero": {
+      "badge": "Yangi avlod kasbiy markazi",
+      "title": "Pro Kasb Hunar Markazi",
+      "subtitle": "Zamonaviy kasb va moliyaviy ta'lim platformasi",
+      "viewCourses": "Kurslarni ko'rish",
+      "register": "Ro'yxatdan o'tish",
+      "stats": {
+        "students": "Faol o'quvchilar",
+        "courses": "Amaliy kurslar",
+        "employment": "Bandlik ko'rsatkichi"
+      }
+    },
+    "about": {
+      "title": "Nega aynan biz?",
+      "subtitle": "Nazariya va amaliyot uyg'unligi orqali zamonaviy kasb-hunar ta'limini taqdim etamiz.",
+      "items": {
+        "teachers": {
+          "title": "Professional ustozlar",
+          "description": "Soha tajribasiga ega mentorlar har bir modulni real keyslar bilan tushuntiradi."
+        },
+        "foreignCourses": {
+          "title": "Xorijiy yo'nalishlar",
+          "description": "Global bozor talablariga mos kurslar bilan xalqaro imkoniyatlar eshigini ochamiz."
+        },
+        "practice": {
+          "title": "Amaliy o'quv tizimi",
+          "description": "Har bir darsdan keyin loyiha, portfolio va baholash orqali natijaga ishlaymiz."
+        }
+      }
+    },
+    "courses": {
+      "title": "Mashhur kurslar",
+      "subtitle": "Karyera va biznesni yangi bosqichga olib chiqadigan yo'nalishlar.",
+      "priceLabel": "Narxi",
+      "details": "Batafsil",
+      "items": {
+        "digitalAccounting": {
+          "title": "Raqamli buxgalteriya",
+          "description": "1C, Excel va zamonaviy moliyaviy hisobotlarni amaliy formatda o'rganing."
+        },
+        "smmMarketing": {
+          "title": "SMM va digital marketing",
+          "description": "Target, kontent strategiya va analytics bilan brend o'sishini boshqaring."
+        },
+        "entrepreneurship": {
+          "title": "Tadbirkorlik va menejment",
+          "description": "Biznes model, savdo va jamoa boshqaruvi bo'yicha tizimli dastur."
+        },
+        "foreignLanguages": {
+          "title": "Xorijiy tillar",
+          "description": "Ingliz va rus tillarini kasbiy faoliyat uchun kommunikativ metodda egallang."
+        }
+      }
+    },
+    "teachers": {
+      "title": "Ustozlar jamoasi",
+      "subtitle": "Har bir o'qituvchi amaliy tajribani auditoriyaga olib kiradi.",
+      "experience": "Tajriba",
+      "years": "yil",
+      "specialization": "Mutaxassislik",
+      "items": {
+        "dilorom": {
+          "specialization": "Moliyaviy hisobot va audit",
+          "bio": "Big4 loyihalarida ishlagan, 200+ talabaning buxgalteriya yo'nalishida ishga kirishiga yordam bergan."
+        },
+        "mirjalol": {
+          "specialization": "Marketing strategiyasi va brending",
+          "bio": "Mahalliy va xalqaro startaplar uchun growth-marketing tizimini yo'lga qo'ygan."
+        },
+        "laylo": {
+          "specialization": "Biznes kommunikatsiya va HR",
+          "bio": "Karyera rivoji va intervyu tayyorlov bo'yicha mentor, 10+ yil tajriba."
+        }
+      }
+    },
+    "books": {
+      "title": "Kitob yo'nalishlari",
+      "subtitle": "Ta'limni mustahkamlash uchun kuratsiya qilingan adabiyotlar to'plami.",
+      "open": "Bo'limga o'tish",
+      "items": {
+        "finance": {
+          "title": "Moliyaviy savodxonlik",
+          "description": "Shaxsiy va biznes moliyasini boshqarish uchun asosiy kitoblar."
+        },
+        "entrepreneurship": {
+          "title": "Tadbirkorlik",
+          "description": "Biznesni noldan yo'lga qo'yish va o'stirish bo'yicha manbalar."
+        },
+        "marketing": {
+          "title": "Marketing",
+          "description": "Raqamli marketing, brending va sotuv texnikalari bo'yicha qo'llanmalar."
+        },
+        "technology": {
+          "title": "Texnologiya",
+          "description": "IT, avtomatlashtirish va zamonaviy platformalar haqida kitoblar."
+        }
+      }
+    },
+    "contact": {
+      "title": "Bog'lanish va ro'yxatdan o'tish",
+      "subtitle": "Kursingizni tanlang va bir necha daqiqada ariza qoldiring.",
+      "telegram": "Telegram",
+      "phone": "Telefon",
+      "socialText": "Savollaringiz bo'lsa, Telegram orqali tezkor javob olasiz.",
+      "form": {
+        "title": "Kursga yozilish",
+        "fullName": "To'liq ism",
+        "fullNamePlaceholder": "Ism va familiyangiz",
+        "phone": "Telefon raqami",
+        "phonePlaceholder": "+998 90 123 45 67",
+        "country": "Mamlakat",
+        "countryPlaceholder": "Mamlakatni tanlang",
+        "region": "Viloyat",
+        "regionPlaceholder": "Viloyatni tanlang",
+        "submit": "Ariza yuborish",
+        "success": "Arizangiz qabul qilindi. Tez orada siz bilan bog'lanamiz.",
+        "error": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring.",
+        "validation": {
+          "fullName": "To'liq ismni kiriting",
+          "phone": "Telefon raqamini kiriting",
+          "phoneInvalid": "Telefon raqami formatini tekshiring",
+          "country": "Mamlakatni tanlang",
+          "region": "Viloyatni tanlang"
+        },
+        "countries": {
+          "uzbekistan": "Uzbekistan",
+          "russia": "Rossiya",
+          "kazakhstan": "Qozog'iston",
+          "turkiye": "Turkiya"
+        },
+        "regions": {
+          "tashkent": "Toshkent",
+          "samarkand": "Samarqand",
+          "andijan": "Andijon",
+          "fargona": "Farg'ona",
+          "namangan": "Namangan",
+          "bukhara": "Buxoro"
+        }
+      }
+    }
+  },
+  "booksPage": {
+    "title": "Kitoblar bo'limi",
+    "construction": "🚧 Ushbu bo'lim hozirda ishlab chiqilmoqda",
+    "back": "Bosh sahifaga qaytish"
+  },
+  "admin": {
+    "headerTitle": "Admin boshqaruv paneli",
+    "goToSite": "Saytga o'tish",
+    "menu": {
+      "dashboard": "Dashboard",
+      "courses": "Kurslar",
+      "teachers": "Ustozlar",
+      "books": "Kitoblar",
+      "applications": "Arizalar"
+    },
+    "pages": {
+      "dashboard": {
+        "title": "Dashboard",
+        "description": "Asosiy KPI va real-time statistika uchun joy (hozircha UI skeleton)."
+      },
+      "courses": {
+        "title": "Kurslar boshqaruvi",
+        "description": "Kurslarni yaratish, yangilash va arxivlash funksiyalari shu yerga ulanadi."
+      },
+      "teachers": {
+        "title": "Ustozlar boshqaruvi",
+        "description": "Ustoz profillari, tajriba va yo'nalishlarni boshqarish uchun bo'lim."
+      },
+      "books": {
+        "title": "Kitoblar boshqaruvi",
+        "description": "Kategoriyalar va tavsiya etilgan adabiyotlarni tahrirlash uchun interfeys."
+      },
+      "applications": {
+        "title": "Arizalar",
+        "description": "Foydalanuvchi arizalarini ko'rish va status berish shu bo'limga qo'shiladi."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "Barcha huquqlar himoyalangan."
+  }
+}
+

@@ -1,0 +1,14 @@
+
+> pro-kasb-hunar-markazi@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.33
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.5s
+ ✓ Compiled /middleware in 186ms (106 modules)
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 12.5s (6791 modules)
+ GET /uz 200 in 13858ms
+ GET /uz 200 in 131ms

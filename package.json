@@ -1,0 +1,32 @@
+{
+  "name": "pro-kasb-hunar-markazi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@ant-design/nextjs-registry": "^1.0.2",
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.8",
+    "antd": "^5.27.0",
+    "next": "14.2.33",
+    "next-intl": "^3.26.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "^0.164.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.7",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.33",
+    "typescript": "^5.8.2"
+  }
+}
