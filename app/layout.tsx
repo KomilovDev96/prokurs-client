@@ -1,6 +1,6 @@
-import type {Metadata} from 'next';
-import {AntdRegistry} from '@ant-design/nextjs-registry';
-import {Manrope, Rubik} from 'next/font/google';
+import type { Metadata } from 'next';
+import { AntdRegistry } from '@ant-design/nextjs-registry';
+import { Manrope, Rubik } from 'next/font/google';
 import AppProviders from '@/shared/providers/app-providers';
 import 'antd/dist/reset.css';
 import './globals.css';
@@ -17,7 +17,14 @@ const rubik = Rubik({
 
 export const metadata: Metadata = {
   title: 'Pro Kasb Hunar Markazi',
-  description: "Zamonaviy kasb va moliyaviy ta'lim platformasi"
+  description: "Zamonaviy kasb va moliyaviy ta'lim platformasi",
+  icons: {
+    icon: '/logo.jpg',
+    apple: '/logo.jpg',
+  },
+  openGraph: {
+    images: [{ url: '/logo.jpg' }],
+  },
 };
 
 export default function RootLayout({

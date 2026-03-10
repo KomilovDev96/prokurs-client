@@ -1,8 +1,8 @@
 'use client';
 
-import {ConfigProvider, theme} from 'antd';
-import type {ThemeConfig} from 'antd';
-import {createContext, useContext, useEffect, useMemo, useState} from 'react';
+import { ConfigProvider, theme } from 'antd';
+import type { ThemeConfig } from 'antd';
+import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 
 type ThemeMode = 'dark' | 'light';
 
@@ -23,42 +23,32 @@ const baseToken = {
   fontFamily: 'var(--font-manrope), sans-serif'
 };
 
-export function ThemeProvider({children}: {children: React.ReactNode}) {
-  const [mode, setMode] = useState<ThemeMode>('dark');
+export function ThemeProvider({ children }: { children: React.ReactNode }) {
+  const mode: ThemeMode = 'dark';
 
   useEffect(() => {
-    const storedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
-    if (storedTheme === 'dark' || storedTheme === 'light') {
-      setMode(storedTheme);
-    }
+    document.documentElement.setAttribute('data-theme', 'dark');
   }, []);
-
-  useEffect(() => {
-    window.localStorage.setItem(THEME_STORAGE_KEY, mode);
-    document.documentElement.setAttribute('data-theme', mode);
-  }, [mode]);
 
   const antdTheme: ThemeConfig = useMemo(
     () => ({
-      algorithm:
-        mode === 'dark' ? theme.darkAlgorithm : theme.defaultAlgorithm,
+      algorithm: theme.darkAlgorithm,
       token: {
         ...baseToken,
-        colorBgBase: mode === 'dark' ? '#0B0F19' : '#F8FAFC',
-        colorBgContainer: mode === 'dark' ? '#111827' : '#FFFFFF',
-        colorTextBase: mode === 'dark' ? '#E5E7EB' : '#111827',
-        colorTextSecondary: mode === 'dark' ? '#9CA3AF' : '#475569',
-        colorBorderSecondary: mode === 'dark' ? 'rgba(59, 130, 246, 0.24)' : '#CBD5E1'
+        colorBgBase: '#0B0F19',
+        colorBgContainer: '#111827',
+        colorTextBase: '#E5E7EB',
+        colorTextSecondary: '#9CA3AF',
+        colorBorderSecondary: 'rgba(59, 130, 246, 0.24)'
       },
       components: {
         Layout: {
           bodyBg: 'transparent',
           headerBg: 'transparent',
-          siderBg: mode === 'dark' ? '#0F172A' : '#FFFFFF'
+          siderBg: '#0F172A'
         },
         Card: {
-          colorBgContainer:
-            mode === 'dark' ? 'rgba(17, 24, 39, 0.86)' : 'rgba(255, 255, 255, 0.9)'
+          colorBgContainer: 'rgba(17, 24, 39, 0.86)'
         },
         Button: {
           primaryShadow: 'none'
@@ -71,14 +61,13 @@ export function ThemeProvider({children}: {children: React.ReactNode}) {
         }
       }
     }),
-    [mode]
+    []
   );
 
   const value = useMemo(
     () => ({
       mode,
-      toggleMode: () =>
-        setMode((prevMode) => (prevMode === 'dark' ? 'light' : 'dark'))
+      toggleMode: () => { }
     }),
     [mode]
   );

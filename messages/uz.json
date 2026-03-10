@@ -17,6 +17,7 @@
     "courses": "Kurslar",
     "teachers": "Ustozlar",
     "books": "Kitoblar",
+    "institutes": "Oliy OTM",
     "contact": "Aloqa",
     "admin": "Admin"
   },
@@ -200,8 +201,67 @@
       }
     }
   },
+  "courses": {
+    "title": "Kurslar katalogi",
+    "subtitle": "Rivojlanishingiz uchun zamonaviy yo'nalishlar",
+    "searchPlaceholder": "Kursni qidirish...",
+    "details": "Batafsil",
+    "noResults": "Kurslar topilmadi",
+    "categories": {
+      "all": "Barchasi",
+      "it": "IT Texnologiyalari",
+      "business": "Biznes",
+      "design": "Dizayn",
+      "marketing": "Marketing"
+    },
+    "detail": {
+      "whyLearn": "Nima uchun buni o'rganish kerak?",
+      "curriculum": "Kurs dasturi",
+      "reviews": "Talabalar fikrlari",
+      "enroll": "Kursga yozilish"
+    }
+  },
+  "teachers": {
+    "title": "Bizning ekspertlar",
+    "subtitle": "Haqiqiy tajribaga ega professionallardan o'rganing",
+    "experience": "yil staj",
+    "achievements": "Yutuqlar",
+    "portfolio": "Portfolio",
+    "coursesTaught": "O'qituvchi kurslari",
+    "socials": "Ijtimoiy tarmoqlarimiz"
+  },
+  "books": {
+    "title": "Pro Kasb kutubxonasi",
+    "subtitle": "AI ko'magiga ega eng yaxshi adabiyotlar",
+    "categories": {
+      "business": "Biznes",
+      "religious": "Diniy",
+      "personal_growth": "Shaxsiy rivojlanish"
+    },
+    "aiAdvisor": {
+      "title": "AI Maslahatchi",
+      "placeholder": "Menga qanday kitob kerak?",
+      "button": "Maslahat olish",
+      "description": "Savol bering va bizning AI siz uchun maxsus kitob tanlab beradi."
+    },
+    "aiAnimation": "Syujet bo'yicha AI animatsiya"
+  },
+  "institutes": {
+    "title": "Oliy o'quv yurtlariga kirish",
+    "subtitle": "Mahalliy va xorijiy institutlar bo'yicha qo'llanma",
+    "locations": {
+      "local": "Mahalliy OTMlar",
+      "international": "Xorijiy OTMlar"
+    },
+    "details": {
+      "history": "Tarixi",
+      "howToPrepare": "Qanday tayyorlanish kerak?",
+      "subjects": "Asosiy fanlar",
+      "recommendedCourses": "Bizdagi tavsiya etilgan kurslar",
+      "ourValue": "Pro Kasb dasturi qanday yordam beradi?"
+    }
+  },
   "footer": {
     "copyright": "Barcha huquqlar himoyalangan."
   }
 }
-

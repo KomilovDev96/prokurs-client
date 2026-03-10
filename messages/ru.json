@@ -200,6 +200,66 @@
       }
     }
   },
+  "courses": {
+    "title": "Каталог курсов",
+    "subtitle": "Современные направления для вашего развития",
+    "searchPlaceholder": "Поиск курса...",
+    "details": "Подробнее",
+    "noResults": "Курсы не найдены",
+    "categories": {
+      "all": "Все",
+      "it": "IT Технологии",
+      "business": "Бизнес",
+      "design": "Дизайн",
+      "marketing": "Маркетинг"
+    },
+    "detail": {
+      "whyLearn": "Почему стоит учить это?",
+      "curriculum": "Программа курса",
+      "reviews": "Отзывы студентов",
+      "enroll": "Записаться на курс"
+    }
+  },
+  "teachers": {
+    "title": "Наши эксперты",
+    "subtitle": "Обучайтесь у профессионалов с реальным опытом",
+    "experience": "лет стажа",
+    "achievements": "Достижения",
+    "portfolio": "Портфолио",
+    "coursesTaught": "Курсы преподавателя",
+    "socials": "Мы в соцсетях"
+  },
+  "books": {
+    "title": "Библиотека Pro Kasb",
+    "subtitle": "Лучшая литература с поддержкой AI",
+    "categories": {
+      "business": "Бизнес",
+      "religious": "Религиозные",
+      "personal_growth": "Саморазвитие"
+    },
+    "aiAdvisor": {
+      "title": "AI Советник",
+      "placeholder": "Какая книга мне нужна?",
+      "button": "Получить совет",
+      "description": "Задайте вопрос и наш AI подберет книгу специально для вас."
+    },
+    "aiAnimation": "AI Анимация по сюжету"
+  },
+  "institutes": {
+    "title": "Поступление в ВУЗы",
+    "subtitle": "Гайд по местным и зарубежным институтам",
+    "locations": {
+      "local": "Местные ВУЗы",
+      "international": "Зарубежные ВУЗы"
+    },
+    "details": {
+      "history": "История",
+      "howToPrepare": "Как подготовиться?",
+      "subjects": "Ключевые предметы",
+      "recommendedCourses": "Рекомендуемые курсы у нас",
+      "ourValue": "Как поможет программа Pro Kasb?"
+    }
+  },
   "footer": {
     "copyright": "Все права защищены."
   }
